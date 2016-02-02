@@ -1,0 +1,22 @@
+{
+  "name": "foobar",
+  "main": "./lib/foobar",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "foobar:toggle",
+    "atom-workspace": "foobar:tigress"
+  },
+  "repository": "https://github.com/atom/foobar",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "atom-space-pen-views": "^2.0.5",
+    "aws-sdk": "*",
+    "electron": "*"
+  }
+}
