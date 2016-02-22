@@ -56,8 +56,8 @@ module.exports = Foobar =
   push: (key, body) ->
     AWS = require('aws-sdk')
     AWS.config.update
-      accessKeyId: 'AKIAIICV5L6RVZQQDUQA'
-      secretAccessKey: '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'
+      accessKeyId: 'foo'
+      secretAccessKey: 'bar'
     s3 = new AWS.S3 params: Bucket: 'deraps'
     s3.headObject Key: key, (err, data) ->
       if data? and !err?
